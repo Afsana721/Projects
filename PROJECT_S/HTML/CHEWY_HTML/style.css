@@ -1,0 +1,50 @@
+/* 
+.chewy {
+    color: green;
+    font-size: 36px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(228, 214, 240);
+    position: relative;
+} */
+
+body {
+    margin: 0;
+    
+}
+
+.header-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.chewy {
+    display: inline-block; /* Set the display to inline-block */
+    color: #008000;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    background-color: rgb(214, 241, 226);
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.chewy-image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.chewy-image:hover {
+    transform: scale(1.1); /* Adjust the scale factor for the desired zoom effect */
+    cursor: pointer;
+}
+
+p {
+    margin-left: 10px;
+}
